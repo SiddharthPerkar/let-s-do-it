@@ -1,29 +1,48 @@
-/* Custom styles for The Webloom */
-
 body {
-    font-family: 'Arial', sans-serif;
+    background-color: #1C1C1E; /* Dark background */
+    color: white; /* Text color */
+    font-family: Arial, sans-serif;
 }
 
-h1, h2, h3, h4 {
-    color: #c53030; /* Red color for headings */
+.testimonial-section {
+    text-align: center;
+    padding: 50px;
 }
 
-a {
-    color: #c53030; /* Red color for links */
+h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
 }
 
-a:hover {
-    color: #9b2c2c; /* Darker red on hover */
+p {
+    margin-bottom: 40px;
 }
 
-footer {
-    background-color: #1a202c; /* Dark gray for footer */
+.testimonials {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
 }
 
-footer a {
-    color: #cbd5e0; /* Light gray for footer links */
+.testimonial {
+    background: #2A2A2E;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 
-footer a:hover {
-    color: #f56565; /* Light red on hover */
+.rating {
+    font-size: 1.5em;
+    color: #FFD700; /* Gold color for stars */
+}
+
+h3 {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+span {
+    font-size: 0.9em;
+    color: #A3A3A3; /* Light gray for job title */
 }
