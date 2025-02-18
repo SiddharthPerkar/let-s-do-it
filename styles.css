@@ -1,0 +1,29 @@
+/* Custom styles for The Webloom */
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+h1, h2, h3, h4 {
+    color: #c53030; /* Red color for headings */
+}
+
+a {
+    color: #c53030; /* Red color for links */
+}
+
+a:hover {
+    color: #9b2c2c; /* Darker red on hover */
+}
+
+footer {
+    background-color: #1a202c; /* Dark gray for footer */
+}
+
+footer a {
+    color: #cbd5e0; /* Light gray for footer links */
+}
+
+footer a:hover {
+    color: #f56565; /* Light red on hover */
+}
